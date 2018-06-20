@@ -1,9 +1,10 @@
 package com.smart.dao;
 
+import com.smart.BaseTest;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class AppointmentDaoTest {
+public class AppointmentDaoTest extends BaseTest{
 
     @Autowired
     private AppointmentDao appointmentDao;
